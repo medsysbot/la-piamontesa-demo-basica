@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>La Piamontesa - Demo básica</title>
+  <meta name="description" content="Demo navegable básica de La Piamontesa: inicio, catálogo, pastas, platos elaborados, bebidas, salsas y postres." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app" aria-label="Demo navegable La Piamontesa">
+    <div class="viewer" id="viewer">
+      <img id="screenImage" src="assets/inicio.jpg" alt="Pantalla de inicio de La Piamontesa" draggable="false" />
+      <div id="hotspots" class="hotspots" aria-label="Zonas clicables de navegación"></div>
+    </div>
+
+    <section class="mobile-shell" id="mobileShell" aria-label="Versión móvil optimizada de la demo"></section>
+
+    <nav class="demo-nav" aria-label="Navegación rápida de la demo">
+      <button type="button" data-screen="inicio">Inicio</button>
+      <button type="button" data-screen="pastas">Pastas</button>
+      <button type="button" data-screen="platos">Platos</button>
+      <button type="button" data-screen="bebidas">Bebidas</button>
+      <button type="button" data-screen="salsas">Salsas</button>
+      <button type="button" data-screen="postres">Postres</button>
+    </nav>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
