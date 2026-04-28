@@ -1,6 +1,6 @@
 # La Piamontesa - Demo basica navegable
 
-Paquete est谩tico listo para GitHub Pages.
+Paquete estilistico listo para GitHub Pages.
 
 ## Contenido
 
